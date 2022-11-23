@@ -1,12 +1,23 @@
-.main {
-    background-color: #f0ecdf;
+.grid-container {
+  display: grid;
+  background-color: #889d2d;
+  grid-template-columns: auto auto auto auto auto;
+  padding: 10px;
+}
+.grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  color: #d4e19c;
+  font-family: 'Shrikhand';
+  src: url('/fonts.google.com/specimen/Shrikhand');
 }
 .button {
     border: none;
     border-radius: 9px;
     color: #D1E092;
-    font-family: 'Oi';
-    src: url('https://fonts.google.com/specimen/Oi');
+    font-family: 'Shrikhand';
+    src: url('/fonts.google.com/specimen/Shrikhand');
     background-color: #A0B939;
     padding: 15px 32px;
     text-align: center;
@@ -18,44 +29,83 @@
   border: none;
   border-radius: 9px;
   color: #EEF7C9;
-  font-family: 'Oi';
-  src: url('https://fonts.google.com/specimen/Oi');
+  font-family: 'Shrikhand';
+  src: url('/fonts.google.com/specimen/Shrikhand');
   background-color: #889d2d;
-  padding: 15px 32px;
+  padding: 15px ;
   text-align: center;
   display: inline-block;
-  font-size: 90%;
+  font-size: 100%;
   cursor: pointer;
 }
-.grid-container {
-    display: grid;
-    background-color: #889d2d;
-    grid-template-columns: auto auto auto auto auto;
-    padding: 10px;
-  }
-.grid-item {
-  padding: 20px;
-  font-size: 30px;
+.head{
+  background-image: url(../site-candide/images-site/fleurs.jpg) ;
+  background-size: 100% ;
   text-align: center;
-  color: #d4e19c;
-  font-family: 'Oi';
-  src: url('https://fonts.google.com/specimen/Oi');
+  margin-top: none;
+  padding-bottom: 200px;
+  padding-top: 100px;
 }
 .title{
-  font-family: 'Oi';
-  src: url('https://fonts.google.com/specimen/Oi');
-  color: #1e1d1a;
+  font-family: 'Shrikhand';
+  src: url('/fonts.google.com/specimen/Shrikhand');
+  color: #f0ecdf;
   text-align: center;
-  font-size: 50px;
+  font-size: 100px;
+  margin-bottom: auto;
 }
 .subtitle{
-  text-align: center;
-  font-family: 'Oi';
-  src: url('https://fonts.google.com/specimen/Oi');
+  font-family: 'Shrikhand';
+  src: url('/fonts.google.com/specimen/Shrikhand');
   color: #f0ecdf;
-  font-size: 20px;
+  font-size: 50px;
   border-radius: 9px;
   background-color: #A0B939;
-  border-style: hidden;
+  display: inline-block;
+  padding: 15px 32px;
+}
+.banner{
+  z-index: 1;
+  background-color: #D1E092;
+  margin-top: none;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.chapter{
+  position: absolute;
+  font-family: 'Shrikhand';
+  src: url('/fonts.google.com/specimen/Shrikhand');
+  color: #f0ecdf;
+  text-align: left;
+  font-size: 50px;
+  display: inline-block;
+  background-color: #A0B939;
+  border-radius: 9px;
+  padding: 15px 32px;
+}
+.text{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f0ecdf;
+  font-size: 20px;
+  width: 100%;
+  margin-top: 200px;
+}
+.imge{
+  float: right;
+  width: 50%;
+  padding-right: 20px;
+  margin-top: 100px;
+  margin-top: 200px;
+}
+.chapter2{
+  position: absolute;
+  font-family: 'Shrikhand';
+  src: url('/fonts.google.com/specimen/Shrikhand');
+  color: #f0ecdf;
+  text-align: right;
+  font-size: 50px;
+  display: inline-block;
+  background-color: #A0B939;
+  border-radius: 9px;
   padding: 15px 32px;
 }
