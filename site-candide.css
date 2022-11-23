@@ -1,0 +1,61 @@
+.main {
+    background-color: #f0ecdf;
+}
+.button {
+    border: none;
+    border-radius: 9px;
+    color: #D1E092;
+    font-family: 'Oi';
+    src: url('https://fonts.google.com/specimen/Oi');
+    background-color: #A0B939;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 70%;
+    cursor: pointer;
+}
+.main-button {
+  border: none;
+  border-radius: 9px;
+  color: #EEF7C9;
+  font-family: 'Oi';
+  src: url('https://fonts.google.com/specimen/Oi');
+  background-color: #889d2d;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 90%;
+  cursor: pointer;
+}
+.grid-container {
+    display: grid;
+    background-color: #889d2d;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 10px;
+  }
+.grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  color: #d4e19c;
+  font-family: 'Oi';
+  src: url('https://fonts.google.com/specimen/Oi');
+}
+.title{
+  font-family: 'Oi';
+  src: url('https://fonts.google.com/specimen/Oi');
+  color: #1e1d1a;
+  text-align: center;
+  font-size: 50px;
+}
+.subtitle{
+  text-align: center;
+  font-family: 'Oi';
+  src: url('https://fonts.google.com/specimen/Oi');
+  color: #f0ecdf;
+  font-size: 20px;
+  border-radius: 9px;
+  background-color: #A0B939;
+  border-style: hidden;
+  padding: 15px 32px;
+}
