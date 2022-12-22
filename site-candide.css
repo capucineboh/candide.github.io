@@ -1,10 +1,21 @@
-.grid-container {
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+}
+.nav-bar {
+  z-index: 10;
+  position: fixed;
+  width: 100%;
   display: grid;
   background-color: #889d2d;
   grid-template-columns: auto auto auto auto auto;
   padding: 10px;
 }
-.grid-item {
+.nav-item {
+  text-decoration: none;
   padding: 20px;
   font-size: 30px;
   text-align: center;
@@ -39,13 +50,11 @@
   cursor: pointer;
 }
 .head{
-  z-index: 1;
-  background-image: url(../site-candide/images-site/fleurs.jpg) ;
+  background-image: url(./images/fleurs.jpg) ;
   background-size: 100% ;
   text-align: center;
-  margin-top: none;
   padding-bottom: 200px;
-  padding-top: 100px;
+  padding-top: 300px;
 }
 .title{
   font-family: 'Shrikhand';
@@ -68,11 +77,12 @@
 .banner{
   z-index: 1;
   background-color: #D1E092;
-  margin-top: none;
-  display: grid;
   grid-template-columns: auto auto;
+  height: 100vh; 
+  display: flex;
 }
 .chapter{
+  z-index: 2;
   position: absolute;
   font-family: 'Shrikhand';
   src: url('/fonts.google.com/specimen/Shrikhand');
@@ -92,43 +102,59 @@
   width: 100%;
   margin-top: 200px;
   margin-bottom: 100px;
+  height:100%; width: 50%; 
+  display: flex; 
+  align-items:center; 
+  flex-direction: column;
 }
-.imge{
-  width: 50%;
-  padding-right: 20px;
-  margin-top: 200px;
-  margin-bottom: 100px;
+.image{
+  width: 70vh;
+  height: 80vh;
+  margin-top: 8vh;
+  margin-left: 10vh;
+}
+.block-image{
+  height: 100vh; 
+  width: 100vh;
+  display: flex; 
 }
 .banner2{
   z-index: 1;
   background-color: #ffca92;
-  margin-top: none;
-  display: grid;
   grid-template-columns: auto auto;
+  height: 100vh; 
+  display: flex;
 }
 .chapter2{
+  z-index: 2;
   position: absolute;
   font-family: 'Shrikhand';
   src: url('/fonts.google.com/specimen/Shrikhand');
   color: #f0ecdf;
-  text-align: right;
+  text-align: left;
   font-size: 50px;
   display: inline-block;
   background-color: #ff861b;
   border-radius: 9px;
   padding: 15px 32px;
+  margin-bottom: 50px;
 }
 .text2{
   font-family: Arial, Helvetica, sans-serif;
   color: #f0ecdf;
   font-size: 20px;
-  width: 100%;
   margin-top: 200px;
   margin-bottom: 100px;
+  height:100%; 
+  width: 50%; 
+  display: flex; 
+  align-items:center; 
+  flex-direction: column;
 }
-.imge2{
-  width: 50%;
-  padding-right: 20px;
-  margin-top: 200px;
-  margin-bottom: 100px;
+.image2{
+  width: 70vh;
+  height: 80vh;
+  margin-top: 8vh;
+  margin-left: 10vh;
 }
+
