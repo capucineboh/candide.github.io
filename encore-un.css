@@ -9,7 +9,7 @@ font: inherit;
 z-index: 10;
 background-color: #39383668;
 width: 100%;
-height: 9vh;
+height: 10vh;
 position: fixed;
 display: grid;
 grid-template-columns: auto auto auto auto auto;
@@ -114,10 +114,10 @@ align-items:center;
 flex-direction: column;
 }
 .image1{
-width: 70vh;
-height: 80vh;
+width: 70%;
+height: fit-content;
 margin-top: 8vh;
-margin-left: 8vh;
+margin-inline: 8vh;
 }
 .block-image{
 height: 100vh; 
@@ -149,7 +149,7 @@ margin-left: 5vh;
 .text2{
 font-family: 'Urbanist', sans-serif;
 src: url(/fonts.google.com/specimen/Urbanist);
-color: #111111;
+color: #73852c;
 font-size: 20px;
 width: 100vh;
 margin-top: 20vh;
@@ -199,10 +199,10 @@ background-size: 100% ;
 grid-template-columns: auto auto;
 display: flex;
 }
-.logo{
+.logo-presentation{
 width: 70vh;
 height: 65vh;
-margin-top: 32vh;
+margin-top: 31vh;
 margin-left: 10vh;
 }
 .text3{
@@ -288,6 +288,13 @@ text-align: center;
 text-align: center;
 margin-left: 15vh;
 }
+.logo-contact{
+width: 70vh;
+height: 65vh;
+margin-top: 25vh;
+margin-left: 10vh;
+margin-bottom: 7vh;
+}
 .instagram{
 z-index: 2;
 font-family: 'Shrikhand';
@@ -295,7 +302,7 @@ src: url();
 color: #f0ecdf;
 font-size: 60px;
 text-align: center;
-margin-top: 50vh;
+margin-top: 45vh;
 }
 .adresse{
 z-index: 2;
@@ -304,4 +311,49 @@ src: url();
 color: #393836;
 font-size: 50px;
 text-align: center;
+}
+.banner-contact{
+z-index: 1;
+background-color: #ffb05c; /*#D1E092*/
+grid-template-columns: auto auto;
+height: 50vh;
+display: flex;
+}
+.chapter-contact{
+z-index: 2;
+position: absolute;
+font-family: 'Shrikhand';
+src: url();
+color: #f0ecdf;
+font-size: 50px;
+display: inline-block;
+text-align: center;
+background-color: #ff861b;
+border-radius: 9px;
+padding: 15px 32px; 
+margin-top: 15vh;
+margin-inline: 5vh;
+width: 40%;
+display: flex; 
+align-items:center; 
+flex-direction: column;
+}
+.text-contact{
+font-family: 'Urbanist', sans-serif;
+src: url(/fonts.google.com/specimen/Urbanist);
+color: #F0ECDF;
+font-size: 20px;
+width: 100vh;
+margin-top: 20vh;
+margin-right: 5vh;
+height:100%;
+display: flex; 
+align-items:center; 
+flex-direction: column;
+}
+.image-rejoins-nous{
+width: 50%;
+height: fit-content;
+margin-top: 15vh;
+margin-inline: 3vh;
 }
