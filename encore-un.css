@@ -316,12 +316,12 @@ text-align: center;
 z-index: 1;
 background-color: #ffb05c; /*#D1E092*/
 grid-template-columns: auto auto;
+width: 100%;
 height: 50vh;
 display: flex;
 }
 .chapter-contact{
 z-index: 2;
-position: absolute;
 font-family: 'Shrikhand';
 src: url();
 color: #f0ecdf;
@@ -331,7 +331,7 @@ text-align: center;
 background-color: #ff861b;
 border-radius: 9px;
 padding: 15px 32px; 
-margin-top: 15vh;
+margin-block: 19vh;
 margin-inline: 5vh;
 width: 40%;
 display: flex; 
@@ -342,10 +342,10 @@ flex-direction: column;
 font-family: 'Urbanist', sans-serif;
 src: url(/fonts.google.com/specimen/Urbanist);
 color: #F0ECDF;
-font-size: 20px;
-width: 100vh;
+font-size: 3vh;
+width: 50%;
 margin-top: 20vh;
-margin-right: 5vh;
+margin-inline: 5vh;
 height:100%;
 display: flex; 
 align-items:center; 
