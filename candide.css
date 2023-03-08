@@ -191,19 +191,21 @@ margin-top: 15vh;
 margin-bottom: 5vh;
 }
 .head-presentation{
-z-index: 1;
+
 background-image: url(./images/fleurs.jpg);
 background-size: 100% ;
 grid-template-columns: auto auto;
 display: flex;
 }
 .logo-presentation{
+padding-top: 300px;
 width: 70vh;
 height: 65vh;
-margin-top: 31vh;
+justify-content: center;
 margin-left: 10vh;
 }
 .text3{
+padding-top: 300px;
 font-family: 'Urbanist', sans-serif;
 src: url();
 color: #f0ecdf;
@@ -237,7 +239,7 @@ color: #171717;
 font-size: 20px;
 width: 100vh;
 height:100%;
-justify-content: center;
+justify-content: baseline;
 }
 .annee2{
 position: absolute;
