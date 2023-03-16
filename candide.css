@@ -198,7 +198,7 @@ grid-template-columns: auto auto;
 display: flex;
 }
 .logo-presentation{
-padding-top: 300px;
+padding-top: 200px;
 width: 70vh;
 height: 65vh;
 justify-content: center;
@@ -208,7 +208,7 @@ margin-left: 10vh;
 padding-top: 300px;
 font-family: 'Urbanist', sans-serif;
 src: url();
-color: #f0ecdf;
+color: blue; /*#f0ecdf*/
 font-size: 20px;
 width: 100vh;
 height:100%;
