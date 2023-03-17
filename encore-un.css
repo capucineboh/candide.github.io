@@ -13,6 +13,29 @@
     height:100%;
     justify-content: center;
 }
+.chapter{
+    z-index: 2;
+    position: absolute;
+    font-family: 'Shrikhand';
+    font-size: 50px;
+    display: inline-block;
+    border-radius: 9px;
+    padding: 15px 32px;
+    text-align: left;
+    margin-top: -7vh;
+    margin-left: 5vh;
+}
+.banner{
+    z-index: 1;
+    grid-template-columns: auto auto;
+    height: 100vh; 
+    display: flex;
+}
+.title{
+    font-family: 'Shrikhand';
+    font-size: 10vh;
+    color: #f0ecdf;
+}
 .nav-bar {
     z-index: 10;
     background-color: #39383668;
@@ -69,13 +92,9 @@
     padding-top: 300px;
 }
 .title1{
-    font-family: 'Shrikhand';
-    src: url();
-    color: #f0ecdf;
     text-align: center;
-    font-size: 10vh;
     margin-bottom: auto;
-    }
+}
 .subtitle1{
     font-family: 'Shrikhand';
     src: url();
@@ -87,26 +106,11 @@
     padding: 15px 32px;
 }
 .banner1{
-    z-index: 1;
     background-color: #bbd456; /*#D1E092*/
-    grid-template-columns: auto auto;
-    height: 100vh; 
-    display: flex;
 }
 .chapter1{
-    z-index: 2;
-    position: absolute;
-    font-family: 'Shrikhand';
-    src: url();
     color: #f0ecdf;
-    text-align: left;
-    font-size: 50px;
-    display: inline-block;
     background-color: #A0B939;
-    border-radius: 9px;
-    padding: 15px 32px;
-    margin-top: -7vh;
-    margin-left: 5vh;
 }
 .text1{
     color: #F0ECDF;
@@ -126,26 +130,11 @@
     display: flex; 
 }
 .banner2{
-    z-index: 1;
     background-color: #f0e8d5;
-    grid-template-columns: auto auto;
-    height: 100vh; 
-    display: flex;
 }
 .chapter2{
-    z-index: 2;
-    position: absolute;
-    font-family: 'Shrikhand';
-    src: url();
     color: #708125;
-    text-align: left;
-    font-size: 50px;
-    display: inline-block;
     background-color: #EEF7C9;
-    border-radius: 9px;
-    padding: 15px 32px;
-    margin-top: -7vh;
-    margin-left: 5vh;
 }
 .text2{
     color: #73852c;
@@ -154,34 +143,15 @@
     flex-direction: column;
 }
 .banner3{
-    z-index: 1;
     background-color: #ffb05c; /*#D1E092*/
-    grid-template-columns: auto auto;
-    height: 100vh; 
-    display: flex;
 }
 .chapter3{
-    z-index: 2;
-    position: absolute;
-    font-family: 'Shrikhand';
-    src: url();
     color: #f0ecdf;
-    text-align: left;
-    font-size: 50px;
-    display: inline-block;
     background-color: #ff861b;
-    border-radius: 9px;
-    padding: 15px 32px;
-    margin-top: -7vh;
-    margin-left: 5vh;
 }
 .title2{
     z-index: 2;
     position: absolute;
-    font-family: 'Shrikhand';
-    src: url();
-    color: #f0ecdf;
-    font-size: 10vh;
     margin-left: 25vh;
     margin-top: 15vh;
     margin-bottom: 5vh;
@@ -240,10 +210,6 @@
 .title3{
     z-index: 2;
     position: absolute;
-    font-family: 'Shrikhand';
-    src: url();
-    color: #f0ecdf;
-    font-size: 10vh;
     margin-top: 15vh;
     margin-bottom: 5vh;
     margin-left: 65vh;
