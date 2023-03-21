@@ -19,8 +19,8 @@
     font-family: 'Shrikhand';
     font-size: 4vw;
     display: inline-block;
-    border-radius: 9vh;
-    padding: 15px 32px;
+    border-radius: 3vh;
+    padding: 2vh 7vh;
     text-align: left;
     margin-top: -7vh;
     margin-left: 5vh;
@@ -42,16 +42,16 @@
     src: url();
     color: #f0ecdf;
     font-size: 4vw;
-    border-radius: 9px;
+    border-radius: 3vh;
+    padding: 2vh 7vh;
     display: inline-block;
-    padding: 15px 32px;
     margin-left: 60vh;
     margin-top: 5vh;
 }
 .nav-bar {
     z-index: 10;
     background-color: #39383668;
-    width: 100%;
+    width: 100vw;
     height: 10vh;
     position: fixed;
     display: grid;
@@ -59,7 +59,8 @@
 }
 .nav-item {
     text-decoration: none;
-    padding: 2vh;
+    padding-inline: 2vh;
+    padding-block: 2vh;
     text-align: center;
     color: #D1E092;
     font-family: 'Shrikhand';
@@ -72,9 +73,8 @@
     background-color: none;
     text-align: center;
     margin-inline: 2vh;
-    margin-block: 0vh;
     display: inline-block;
-    font-size: 2vw;
+    font-size: 3vh;
     cursor: pointer;
 }
 .button:hover {
@@ -82,26 +82,24 @@
     border-radius: 3vh;
     border: none;
     background-color: #657524;
-    padding: 2vh -1vh;
+    height: 6vh;
 }
 .main-button {
-    height: 5vh;
+    font-style: #f0e8d5;
     text-align: center;
-    margin-block: 1vh;
-    margin-left: 5vh;
-    margin-top: -1vh;
     display: inline-block;
     cursor: pointer;
+    align-items: center;
 }
 .logo-button {
-    height: 7vh;
+    height: 5vw;
 }
 .head-index{
     text-align: center;
     background-image: url(./images/fleurs.jpg);
     background-size: 100% ;
-    padding-bottom: 200px;
-    padding-top: 300px;
+    padding-bottom: 20vh;
+    padding-top: 30vh;
 }
 .title1{
     text-align: center;
@@ -112,10 +110,10 @@
     src: url();
     color: #f0ecdf;
     font-size: 2vw;
-    border-radius: 9px;
+    border-radius: 3vh;
+    padding: 2vh 7vh;
     background-color: #657524;
     display: inline-block;
-    padding: 15px 32px;
 }
 .banner1{
     background-color: #bbd456; /*#D1E092*/
@@ -171,17 +169,16 @@
     margin-bottom: 5vh;
 }
 .head-presentation{
+    padding-top: 30vh;
     background-image: url(./images/fleurs.jpg);
-    background-size: 100vh ;
+    background-size: 100% ;
     grid-template-columns: auto auto;
     display: flex;
 }
 .logo-presentation{
-    padding-top: 250px;
-    width: 70vh;
-    height: 65vh;
+    width: 40vw;
     justify-content: center;
-    margin-left: 10vh;
+    align-items: center;
 }
 .text3{
     color: #f0ecdf ;
@@ -192,8 +189,7 @@
     background-color: #A0B939;
 }
 .block-image{
-    height: 100vh; 
-    width: 100vh;
+    width: 45vw; 
     display: flex;
     align-items: center;
     justify-content: center; 
@@ -242,8 +238,7 @@
     margin-left: 15vh;
 }
 .logo-contact{
-    width: 70vh;
-    height: 65vh;
+    width: 40vw;
     margin-top: 25vh;
     margin-left: 10vh;
     margin-bottom: 7vh;
@@ -282,8 +277,8 @@
     display: inline-block;
     text-align: center;
     background-color: #ff861b;
-    border-radius: 9px;
-    padding: 15px 32px; 
+    border-radius: 3vh;
+    padding: 2vh 7vh;
     margin-block: 19vh;
     margin-inline: 5vh;
     width: 40%;
