@@ -365,7 +365,7 @@
     .nav-bar {
         z-index: 10;
         background-color: #39383668;
-        width: 100vw;
+        width: 10vw;
         height: fit-content;
         position: fixed;
         display: grid;
