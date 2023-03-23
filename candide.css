@@ -14,6 +14,7 @@
         width: 100vh;
         height:100%;
         justify-content: center;
+        text-align: justify;
     }
     .chapter{
         z-index: 2;
@@ -213,6 +214,7 @@
         justify-content: center;
         align-items: center;
         width: 100%;
+
     }
     .annee2{
         background-color: #e97c29;
@@ -287,7 +289,7 @@
         padding: 2vh 7vh;
         margin-block: 19vh;
         margin-inline: 5vh;
-        width: 40%;
+        width: 50%;
         display: flex; 
         align-items:center; 
         flex-direction: column;
@@ -296,9 +298,10 @@
         color: #F0ECDF;
         font-size: 2vw;
         width: 50%;
-        margin-inline: 5vh;
-        display: flex; 
-        flex-direction: column;
+        margin-inline: 5vw;
+        text-align: center;
+        align-items: center;
+        margin-top: 20vh;
     }
     .image-rejoins-nous{
         width: 50%;
@@ -306,7 +309,7 @@
         align-items: center;
         justify-content: center;
         margin-block: auto auto;
-        margin-inline: auto auto;
+        margin-inline: 5vh;
     }
     }
     
@@ -326,6 +329,7 @@
         width: 100vw;
         height:100%;
         justify-content: center;
+        text-align: center;
     }
     .chapter{
         z-index: 2;
@@ -334,10 +338,11 @@
         font-size: 4vw;
         display: inline-block;
         border-radius: 3vh;
-        padding: 2vh 7vh;
+        padding: 2vh;
         text-align: left;
-        margin-top: -7vh;
-        margin-left: 5vh;
+        margin-left: 3vh;
+        margin-top: -4vh;
+        text-align: center;
     }
     .banner{
         z-index: 1;
@@ -360,9 +365,10 @@
         padding: 2vh 7vh;
         display: inline-block;
         text-align: center;
-        margin-left: 25vw;
-        margin-right: auto;
+        margin-inline: 10vw ;
         margin-top: 5vh;
+        width: 50%;
+        height: fit-content;
     }
     .nav-bar {
         z-index: 10;
@@ -402,7 +408,7 @@
     }
     .main-button {
         font-style: #f0e8d5;
-        text-align: center;
+        text-align:center;
         display: inline-block;
         cursor: pointer;
         align-items: center;
@@ -411,14 +417,14 @@
         height: 5vw;
     }
     .head-index{
-        text-align: center;
+        text-align:center;
         background-image: url(./images/fleurs.jpg);
         background-repeat: no-repeat;
         padding-bottom: 20vh;
         padding-top: 30vh;
     }
     .title1{
-        text-align: center;
+        text-align:center;
         margin-bottom: auto;
     }
     .subtitle1{
@@ -427,7 +433,7 @@
         color: #f0ecdf;
         font-size: 2vw;
         border-radius: 3vh;
-        padding: 2vh 7vh;
+        padding: 2vh 2vh;
         background-color: #657524;
         display: inline-block;
     }
@@ -442,18 +448,18 @@
         color: #F0ECDF;
         width: 90%;
         height: fit-content;
-        margin-block: 10vw;
+        margin-block-start: 10vw;
         margin-inline: auto;
         display: flex; 
         flex-direction: column;
-        text-align: center;
+        text-align:center;
 
     }
     .image1{
         width: 70%;
         height: fit-content;
         
-        margin-block: auto auto;
+        margin-block: auto 5vh;
         margin-inline: auto auto;
     }
     /* .block-image{
@@ -478,7 +484,7 @@
         margin-inline: auto;
         display: flex; 
         flex-direction: column;
-        text-align: center;
+        text-align:center;
     }
     .banner3{
         background-color: #ffb05c; /*#D1E092*/
@@ -516,7 +522,7 @@
         align-items: center;
         margin-inline: auto;
         margin-block: 2vh;
-        text-align: center;
+        text-align:center;
     }
     .annee1{
         background-color: #A0B939;
@@ -533,7 +539,7 @@
     .photo-comites{
         width: 90%;
         height: fit-content;
-        margin-block-start: 5vh;
+        margin-block-start: 10vh;
         margin-inline: auto;
         justify-content: center;
         align-items: center;
@@ -545,7 +551,8 @@
         width: 100%;
         margin-inline: auto;
         margin-block-end: auto;
-        text-align: center;
+        text-align:center;
+        margin-block-start: -5vh;
     }
     .annee2{
         background-color: #e97c29;
@@ -570,12 +577,12 @@
         background-repeat: no-repeat;
         grid-template-columns: auto auto;
         display: flex;
-        text-align: center;
+        text-align:center;
         flex-direction: column;
         padding-top: 20vh;
     }
     .contact-general{
-        text-align: center;
+        text-align:center;
         margin-inline: auto;
         margin-block: 5vh;
     }
@@ -591,7 +598,7 @@
         src: url();
         color: #f0ecdf;
         font-size: 4vw;
-        text-align: center;
+        text-align:center;
         margin-inline: auto;
         margin-block: auto;
     }
@@ -623,9 +630,9 @@
         text-align: center;
         background-color: #ff861b;
         margin-block: auto;
-        margin-inline: auto;
+        margin-inline: 10vw;
         margin-bottom: 10vh;
-        width: 40%;
+        width: 50vw;
         display: flex; 
         align-items:center; 
         flex-direction: column;
@@ -640,11 +647,11 @@
         flex-direction: column;
     }
     .image-rejoins-nous{
-        width: 50%;
+        width: 90%;
         height: fit-content;
         align-items: center;
         justify-content: center;
-        margin-block: auto auto;
+        margin-block: 5vh;
         margin-inline: auto auto;
     }
     }
