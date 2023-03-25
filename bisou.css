@@ -13,6 +13,7 @@
         font-size: 1.5vw;
         width: 80%;
         height: fit-content;
+        height: webkit-fit-content;
         justify-content: center;
         text-align: justify;
         margin-block: auto;
@@ -58,6 +59,7 @@
         background-color: #39383668;
         width: 100vw;
         height: fit-content;
+        height: webkit-fit-content;
         position: fixed;
         display: grid;
         grid-template-columns: auto auto auto auto auto;
@@ -208,6 +210,7 @@
     .photo-comites{
         width: 90%;
         height: fit-content;
+        height: webkit-fit-content;
         margin-top: 5vh;
         justify-content: center;
         align-items: center;
@@ -308,6 +311,7 @@
     .image-rejoins-nous{
         width: 50%;
         height: fit-content;
+        height: webkit-fit-content;
         align-items: center;
         justify-content: center;
         margin-block: auto auto;
@@ -372,12 +376,14 @@
         margin-top: 5vh;
         width: 50%;
         height: fit-content;
+        height: webkit-fit-content;
     }
     .nav-bar {
         z-index: 10;
         background-color: #39383668;
         width: 100vw;
         height: fit-content;
+        height: webkit-fit-content;
         position: fixed;
         display: grid;
         justify-content: center;
@@ -410,6 +416,7 @@
         border: none;
         background-color: #657524;
         height: fit-content;
+        height: webkit-fit-content;
     }
     .main-button {
         font-style: #f0e8d5;
@@ -452,6 +459,7 @@
     .text1{
         color: #F0ECDF;
         height: fit-content;
+        height: webkit-fit-content;
         margin-block-start: 10vh;
         display: flex; 
         flex-direction: column;
@@ -461,6 +469,7 @@
     .image1{
         width: 70%;
         height: fit-content;
+        height: webkit-fit-content;
         margin-block: 5vh 10vh;
         margin-inline: auto auto;
     }
@@ -481,6 +490,7 @@
     .text2{
         color: #73852c;
         height: fit-content;
+        height: webkit-fit-content;
         margin-block-start: 10vw;
         margin-block-start: 10vh;
         display: flex; 
@@ -540,6 +550,7 @@
     .photo-comites{
         width: 90%;
         height: fit-content;
+        height: webkit-fit-content;
         margin-block-start: 15vh;
         margin-inline: auto;
         justify-content: center;
@@ -588,6 +599,7 @@
     .logo-contact{
         width: 40vw;
         height: fit-content;
+        height: webkit-fit-content;
         margin-inline: auto;
         margin-block: auto;
     }
@@ -648,6 +660,7 @@
     .image-rejoins-nous{
         width: 90%;
         height: fit-content;
+        height: webkit-fit-content;
         align-items: center;
         justify-content: center;
         margin-block: 5vh;
