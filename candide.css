@@ -11,10 +11,12 @@
         font-family: 'Urbanist', sans-serif;
         src: url(/fonts.google.com/specimen/Urbanist);
         font-size: 1.5vw;
-        width: 100vh;
-        height:100%;
+        width: 80%;
+        height: fit-content;
+        height: webkit-fit-content;
         justify-content: center;
         text-align: justify;
+        margin-block: auto;
     }
     .chapter{
         z-index: 2;
@@ -49,8 +51,7 @@
         padding: 2vh 7vh;
         display: inline-block;
         text-align: center;
-        margin-left: 25vw;
-        margin-right: auto;
+        margin-inline: 5vw;
         margin-top: 5vh;
     }
     .nav-bar {
@@ -58,6 +59,7 @@
         background-color: #39383668;
         width: 100vw;
         height: fit-content;
+        height: webkit-fit-content;
         position: fixed;
         display: grid;
         grid-template-columns: auto auto auto auto auto;
@@ -138,6 +140,7 @@
     .image1{
         width: 70%;
         height: fit-content;
+        height: webkit-fit-content;
         
         margin-block: auto auto;
         margin-inline: auto auto;
@@ -189,9 +192,10 @@
         align-items: center;
     }
     .text3{
-        color: #f0ecdf ;
+        color: #f0ecdf;
         justify-content: center;
         align-items: center;
+        margin-inline: 5vw;
     }
     .annee1{
         background-color: #A0B939;
@@ -204,7 +208,9 @@
         padding-inline: 2vh ;
     }
     .photo-comites{
-        height: 50vh;
+        width: 90%;
+        height: fit-content;
+        height: webkit-fit-content;
         margin-top: 5vh;
         justify-content: center;
         align-items: center;
@@ -213,8 +219,7 @@
         color: #171717;
         justify-content: center;
         align-items: center;
-        width: 100%;
-
+        width: 90%;
     }
     .annee2{
         background-color: #e97c29;
@@ -306,6 +311,7 @@
     .image-rejoins-nous{
         width: 50%;
         height: fit-content;
+        height: webkit-fit-content;
         align-items: center;
         justify-content: center;
         margin-block: auto auto;
@@ -330,16 +336,17 @@
         height:100%;
         justify-content: center;
         text-align: center;
+        margin-inline: auto;
+        width: 90%;
     }
     .chapter{
         z-index: 2;
         position: absolute;
         font-family: 'Shrikhand';
-        font-size: 4vw;
+        font-size: 6vw;
         display: inline-block;
         border-radius: 3vh;
         padding: 2vh;
-        text-align: left;
         margin-left: 3vh;
         margin-top: -4vh;
         text-align: center;
@@ -352,7 +359,7 @@
     }
     .title{
         font-family: 'Shrikhand';
-        font-size: 6vw;
+        font-size: 12vw;
         color: #f0ecdf;
     }
     .annee{
@@ -369,14 +376,17 @@
         margin-top: 5vh;
         width: 50%;
         height: fit-content;
+        height: webkit-fit-content;
     }
     .nav-bar {
         z-index: 10;
         background-color: #39383668;
         width: 100vw;
         height: fit-content;
+        height: webkit-fit-content;
         position: fixed;
         display: grid;
+        align-items: center;
         grid-template-columns: auto auto auto auto auto;
     }
     .nav-item {
@@ -405,6 +415,7 @@
         border: none;
         background-color: #657524;
         height: fit-content;
+        height: webkit-fit-content;
     }
     .main-button {
         font-style: #f0e8d5;
@@ -431,7 +442,7 @@
         font-family: 'Shrikhand';
         src: url();
         color: #f0ecdf;
-        font-size: 2vw;
+        font-size: 5vw;
         border-radius: 3vh;
         padding: 2vh 2vh;
         background-color: #657524;
@@ -446,10 +457,9 @@
     }
     .text1{
         color: #F0ECDF;
-        width: 90%;
         height: fit-content;
-        margin-block-start: 10vw;
-        margin-inline: auto;
+        height: webkit-fit-content;
+        margin-block-start: 10vh;
         display: flex; 
         flex-direction: column;
         text-align:center;
@@ -458,8 +468,8 @@
     .image1{
         width: 70%;
         height: fit-content;
-        
-        margin-block: auto 5vh;
+        height: webkit-fit-content;
+        margin-block: 5vh 10vh;
         margin-inline: auto auto;
     }
     /* .block-image{
@@ -478,10 +488,10 @@
     }
     .text2{
         color: #73852c;
-        width: 90%;
         height: fit-content;
-        margin-block: 10vw;
-        margin-inline: auto;
+        height: webkit-fit-content;
+        margin-block-start: 10vw;
+        margin-block-start: 10vh;
         display: flex; 
         flex-direction: column;
         text-align:center;
@@ -500,7 +510,8 @@
         margin-block: auto;
         margin-bottom: 5vh;
         top: 10vh;
-        left: 15vw;
+        left: 7vw;
+        font-size: 7vw;
     }
     .head-presentation{
         padding-top: 15vh;
@@ -517,12 +528,11 @@
     }
     .text3{
         color: #f0ecdf ;
-        font-size: 3vw;
         justify-content: center;
         align-items: center;
-        margin-inline: auto;
-        margin-block: 2vh;
+        margin-block-end: 2vh;
         text-align:center;
+        font-size: 4vw;
     }
     .annee1{
         background-color: #A0B939;
@@ -534,12 +544,13 @@
         align-items: center;
         justify-content: center; 
         margin-inline: auto ;
-        margin-block: 5vh;
+        margin-block: auto;
     }
     .photo-comites{
         width: 90%;
         height: fit-content;
-        margin-block-start: 10vh;
+        height: webkit-fit-content;
+        margin-block-start: 15vh;
         margin-inline: auto;
         justify-content: center;
         align-items: center;
@@ -548,11 +559,9 @@
         color: #171717;
         justify-content: center;
         align-items: center;
-        width: 100%;
-        margin-inline: auto;
-        margin-block-end: auto;
+        margin-block: 5vh;
         text-align:center;
-        margin-block-start: -5vh;
+        width: 100%;
     }
     .annee2{
         background-color: #e97c29;
@@ -561,20 +570,20 @@
         z-index: 2;
         position: absolute;
         margin-top: 10vh;
-        margin-bottom: 5vh;
-        margin-inline: 37vw;
+        margin-inline: 25vw;
         
     }
     .head-actions{
         z-index: 1;
         background-image: url(./images/fleurs.jpg);
         background-repeat: no-repeat;
-        height: 30vh; 
+        height: 24vh; 
     }
     .head-contacts{
         z-index: 1;
         background-image: url(./images/fleurs.jpg);
         background-repeat: no-repeat;
+        background-size: 100vh;
         grid-template-columns: auto auto;
         display: flex;
         text-align:center;
@@ -589,6 +598,7 @@
     .logo-contact{
         width: 40vw;
         height: fit-content;
+        height: webkit-fit-content;
         margin-inline: auto;
         margin-block: auto;
     }
@@ -597,7 +607,7 @@
         font-family: 'Shrikhand';
         src: url();
         color: #f0ecdf;
-        font-size: 4vw;
+        font-size: 7vw;
         text-align:center;
         margin-inline: auto;
         margin-block: auto;
@@ -607,7 +617,7 @@
         font-family: 'Shrikhand';
         src: url();
         color: #393836;
-        font-size: 3vw;
+        font-size: 5vw;
         text-align: center;
     }
     .banner-contact{
@@ -626,7 +636,7 @@
         display: inline-block;
         border-radius: 3vh;
         padding: 2vh 7vh;
-        font-size: 3.5vw;
+        font-size: 6vw;
         text-align: center;
         background-color: #ff861b;
         margin-block: auto;
@@ -649,6 +659,7 @@
     .image-rejoins-nous{
         width: 90%;
         height: fit-content;
+        height: webkit-fit-content;
         align-items: center;
         justify-content: center;
         margin-block: 5vh;
