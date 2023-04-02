@@ -11,7 +11,7 @@ Ce site web comprend les fonctionnalités suivantes :
 ## Utilisation :     
 Pour utiliser le site web du Comité étudiant humanitaire Candide, il vous suffit de :
 1.  Cliquer sur le lien suivant : https://capucineboh-sitecandide-i348mnzkmve.ws-eu92.gitpod.io/ 
-2.  D’inscrire la commande ”python -m http.server 8000” dans le terminal du projet
+2.  Inscrire la commande ”python -m http.server 8000” dans le terminal du projet
 3.  Ouvrir le projet dans une nouvelle page de votre navigateur     
 
 ## Contributions :     
@@ -20,7 +20,7 @@ Les contributions à ce projet sont les bienvenues. Si vous souhaitez contribuer
 2.	Cloner votre dépôt forké sur Gitpod à l’aide de la boîte de dialogue "clone Git repository"     
 3.	Créer une branche pour votre contribution en inscrivant la commande suivante dans le terminal : « git checkout -b nom-de-la-nouvelle-fonctionnalité »   
 4.	Effectuer les modifications nécessaires       
-5.	Commiter les modifications avec un message de commit approprié grâce à la commande « git add . » suivie de « git commit -m ”nom du commit” »      
+5.	Commit les modifications avec un message de commit approprié grâce à la commande « git add . » suivie de « git commit -m ”nom du commit” »      
 6.	Push les modifications sur votre dépôt forké avec « git push origin nom-de-la-nouvelle-fonctionnalité »      
 7.	Créer une pull request avec une description détaillée de votre contribution. Pour ce faire il est nécessaire de cliquer sur le bouton « Compare & pull request » disponible à côté de la nouvelle branche crée, où votre dépôt est forké sur GitHub.      
 
