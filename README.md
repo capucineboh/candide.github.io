@@ -1,4 +1,4 @@
-# Site web du Comité étudiant humanitaire du Collège du Sud - Candide
+# Site web du Comité étudiant humanitaire du Collège du Sud - Candide 
 ## Description :     
 Ce projet consiste en la création d'un site web pour le Comité étudiant humanitaire du Collège du Sud, nommé Candide. Ce site web vise à promouvoir les actions humanitaires du comité, à informer les étudiants et la communauté locale sur les événements et les campagnes de collecte de fonds, ainsi qu'à encourager les dons et la participation.    
 
