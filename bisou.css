@@ -1,4 +1,4 @@
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
     /*ordinateurs*/
     *{
         margin: 0;
@@ -102,6 +102,12 @@
     .logo-button {
         height: 5vh;
         margin-block: auto;
+    }
+    .footer{
+        z-index: 1;
+        height: fit-content; 
+        background-color: #bbd456;
+        padding-block: 2vh;
     }
     .head-index{
         text-align: center;
@@ -318,7 +324,7 @@
         margin-inline: 5vh;
     }
     }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1400px) {
     /*smartphones*/
         *{
             margin: 0;
@@ -666,7 +672,7 @@
             margin-inline: auto auto;
         }
         }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
 /*smartphones*/
     *{
         margin: 0;
@@ -707,7 +713,7 @@
     .title{
         font-family: 'Shrikhand';
         font-size: 12vw;
-        color: #f0ecdf;
+        color: #f0e8d5;
     }
     .annee{
         position: absolute;
@@ -726,12 +732,22 @@
         height: webkit-fit-content;
     }
     .menu{
-       background-color: red; 
+        display: inline-block;
+        padding: 15px 25px;
+        font-size: 24px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        color: #fff;
+        background-color: #4CAF50;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 9px #999;
     }
-
     .nav-bar {
         z-index: 10;
-        background-color: red;
+        background-color: #39383668;
         width: 100vw;
         height: fit-content;
         height: webkit-fit-content;
