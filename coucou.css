@@ -106,10 +106,13 @@
     .footer{
         z-index: 1;
         display: flex;
+        width: 100%;
         justify-content: center;
+        align-items: center;
         height: fit-content; 
         background-color: #bbd456;
         padding-block: 2vh;
+
     }
     .head-index{
         text-align: center;
