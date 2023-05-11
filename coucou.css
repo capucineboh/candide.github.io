@@ -144,7 +144,7 @@
     }
     .text1{
         color: #F0ECDF;
-        margin-left: 5vh;
+        margin-inline: 5vh;
         display: flex; 
         flex-direction: column;
     }
