@@ -1,4 +1,4 @@
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
     /*ordinateurs*/
     *{
         margin: 0;
@@ -103,6 +103,14 @@
         height: 5vh;
         margin-block: auto;
     }
+    .footer{
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        height: fit-content; 
+        background-color: #8b9f3c;
+        padding-block: 2vh;
+    }
     .head-index{
         text-align: center;
         background-image: url(./images/fleurs.jpg);
@@ -133,8 +141,8 @@
     }
     .text1{
         color: #F0ECDF;
-        margin-left: 5vh;
-        display: flex; 
+        margin-inline: 5vh;
+        display: inline; 
         flex-direction: column;
     }
     .image1{
@@ -318,7 +326,7 @@
         margin-inline: 5vh;
     }
     }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1400px) {
     /*smartphones*/
         *{
             margin: 0;
@@ -377,7 +385,14 @@
             height: fit-content;
             height: webkit-fit-content;
         }
-        
+        .footer{
+            z-index: 1;
+            display: flex inline;
+            justify-content: center;
+            height: fit-content; 
+            background-color: #8b9f3c;
+            padding-block: 2vh;
+        }
         .nav-bar{
             z-index: 10;
             background-color: #39383668;
@@ -666,7 +681,7 @@
             margin-inline: auto auto;
         }
         }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
 /*smartphones*/
     *{
         margin: 0;
@@ -707,7 +722,7 @@
     .title{
         font-family: 'Shrikhand';
         font-size: 12vw;
-        color: #f0ecdf;
+        color: #f0e8d5;
     }
     .annee{
         position: absolute;
@@ -725,18 +740,22 @@
         height: fit-content;
         height: webkit-fit-content;
     }
-    .menu{
-       background-color: red; 
+    .footer{
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        height: fit-content; 
+        background-color: #8b9f3c;
+        padding-block: 2vh;
     }
-
     .nav-bar {
+        display: none;
         z-index: 10;
-        background-color: red;
+        background-color: #39383668;
         width: 100vw;
         height: fit-content;
         height: webkit-fit-content;
         position: fixed;
-        display: grid;
         align-items: center;
         grid-template-columns: auto auto auto auto auto;
     }
