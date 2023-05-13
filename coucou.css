@@ -54,6 +54,27 @@
         margin-inline: 5vw;
         margin-top: 5vh;
     }
+    .container {
+        display: none;
+        z-index: 100;
+        position: fixed;
+        transition: 0.5s;
+        background-color: #EEF7C9;
+        border-radius: 3vh;
+        height: fit-content;
+        margin: 10px;
+    }  
+    .bar{
+        width: 15vw;
+        height: 2vw;
+        background-color: #393836;
+        margin: 4vw;
+        transition: 0.5s;
+    }
+    .container:hover {
+        background-color: #73852c;
+        transform:  rotate(-90deg)
+    }
     .nav-bar {
         z-index: 10;
         background-color: #39383668;
@@ -392,6 +413,27 @@
             height: fit-content; 
             background-color: #a6b55b;;
             padding-block: 2vh;
+        }
+        .container {
+            display: none;
+            z-index: 100;
+            position: fixed;
+            transition: 0.5s;
+            background-color: #EEF7C9;
+            border-radius: 3vh;
+            height: fit-content;
+            margin: 10px;
+        }  
+        .bar{
+            width: 15vw;
+            height: 2vw;
+            background-color: #393836;
+            margin: 4vw;
+            transition: 0.5s;
+        }
+        .container:hover {
+            background-color: #73852c;
+            transform:  rotate(-90deg)
         }
         .nav-bar{
             z-index: 10;
@@ -747,14 +789,16 @@
         height: fit-content; 
         background-color: #a6b55b;
         padding-block: 2vh;
-        margin-top: -100px;
     }
     .container {
         display: inline-block;
         z-index: 100;
         position: fixed;
         transition: 0.5s;
-        /*cursor: pointer;*/
+        background-color: #EEF7C9;
+        border-radius: 3vh;
+        height: fit-content;
+        margin: 10px;
     }  
     .bar{
         width: 15vw;
@@ -764,6 +808,7 @@
         transition: 0.5s;
     }
     .container:hover {
+        background-color: #73852c;
         transform:  rotate(-90deg)
     }
     .menu{
@@ -772,10 +817,21 @@
         background-image: url(./images/fleurs.jpg);
     }
     .layer{
-        background-color: #39383668;
+        background-color: #39383685;
         height: 100vh;
+        grid-template-columns: auto auto;
+        flex-direction: column;
+        display: flex;
     }
-
+    .logo-menu{
+        justify-content: center;
+        align-items: center;
+        height: 50vw;
+        width: fit-content;
+        display: inline-block;
+        padding-inline: 22vw;
+        padding-block-start: 5vh;
+    }
     .nav-bar {
         display: none;
         z-index: 10;
@@ -789,9 +845,9 @@
     }
     .nav-item {
         text-decoration: none;
-        padding-inline: auto;
-        padding-block: 2vh;
+        padding-block: 5vh;
         text-align: center;
+        justify-content: center;
         color: #D1E092;
         font-family: 'Shrikhand';
         src: url();
@@ -802,9 +858,10 @@
         src: url();
         background-color: none;
         text-align: center;
+        justify-content: center;
         margin-inline: 1vh;
         display: inline-block;
-        font-size: 2vw;
+        font-size: 10vw;
         cursor: pointer;
     }
     .button:hover {
