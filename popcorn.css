@@ -259,6 +259,14 @@
         margin-inline: 40vw;
         
     }
+    .title4{
+        z-index: 2;
+        position: absolute;
+        margin-top: 15vh;
+        margin-bottom: 5vh;
+        margin-inline: 35vw;
+        
+    }
     .head-actions{
         z-index: 1;
         background-image: url(./images/fleurs.jpg);
@@ -622,6 +630,14 @@
             background-color: #e97c29;
         }
         .title3{
+            z-index: 2;
+            position: absolute;
+            margin-top: 10vh;
+            margin-inline: 25vw;
+            
+        }
+
+        .title4{
             z-index: 2;
             position: absolute;
             margin-top: 10vh;
@@ -1028,6 +1044,7 @@
         margin-inline: 25vw;
         
     }
+    
     .head-actions{
         z-index: 1;
         background-image: url(./images/fleurs.jpg);
